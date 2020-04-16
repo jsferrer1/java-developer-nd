@@ -1,4 +1,4 @@
-package com.restapis.graphql.entity;
+package com.restapis.bootstrap.entity;
 
 import javax.persistence.*;
 

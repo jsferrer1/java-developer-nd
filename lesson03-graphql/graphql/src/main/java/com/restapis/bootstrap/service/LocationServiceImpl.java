@@ -1,9 +1,11 @@
-package com.restapis.graphql.service;
+package com.restapis.bootstrap.service;
 
-import com.restapis.graphql.entity.Location;
-import com.restapis.graphql.repository.LocationRepository;
+import com.restapis.bootstrap.entity.Location;
+import com.restapis.bootstrap.repository.LocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 import java.util.List;
 

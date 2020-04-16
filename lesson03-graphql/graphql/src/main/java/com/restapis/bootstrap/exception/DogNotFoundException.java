@@ -1,4 +1,4 @@
-package com.restapis.graphql.exception;
+package com.restapis.bootstrap.exception;
 
 import graphql.ErrorType;
 import graphql.GraphQLError;

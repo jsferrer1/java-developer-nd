@@ -1,7 +1,7 @@
-package com.restapis.graphql.web;
+package com.restapis.bootstrap.web;
 
-import com.restapis.graphql.entity.Location;
-import com.restapis.graphql.service.LocationService;
+import com.restapis.bootstrap.service.LocationService;
+import com.restapis.bootstrap.entity.Location;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

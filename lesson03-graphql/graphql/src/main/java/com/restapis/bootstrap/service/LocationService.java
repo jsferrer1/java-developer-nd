@@ -1,6 +1,6 @@
-package com.restapis.graphql.service;
+package com.restapis.bootstrap.service;
 
-import com.restapis.graphql.entity.Location;
+import com.restapis.bootstrap.entity.Location;
 
 import java.util.List;
 

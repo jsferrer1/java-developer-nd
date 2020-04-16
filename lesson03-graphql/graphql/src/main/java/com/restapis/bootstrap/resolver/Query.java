@@ -1,18 +1,18 @@
-package com.restapis.graphql.resolver;
+package com.restapis.bootstrap.resolver;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
-import com.restapis.graphql.entity.Dog;
-import com.restapis.graphql.exception.DogNotFoundException;
-import com.restapis.graphql.repository.DogRepository;
+import com.restapis.bootstrap.entity.Dog;
+import com.restapis.bootstrap.exception.DogNotFoundException;
+import com.restapis.bootstrap.repository.DogRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
 @Component
-public class DogQuery implements GraphQLQueryResolver {
+public class Query implements GraphQLQueryResolver {
     private DogRepository dogRepository;
 
-    public DogQuery(DogRepository dogRepository) {
+    public Query(DogRepository dogRepository) {
         this.dogRepository = dogRepository;
     }
 

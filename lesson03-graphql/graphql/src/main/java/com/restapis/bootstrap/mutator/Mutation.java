@@ -1,19 +1,19 @@
-package com.restapis.graphql.mutator;
+package com.restapis.bootstrap.mutator;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
-import com.restapis.graphql.entity.Dog;
-import com.restapis.graphql.exception.BreedNotFoundException;
-import com.restapis.graphql.exception.DogNotFoundException;
-import com.restapis.graphql.repository.DogRepository;
+import com.restapis.bootstrap.entity.Dog;
+import com.restapis.bootstrap.exception.BreedNotFoundException;
+import com.restapis.bootstrap.exception.DogNotFoundException;
+import com.restapis.bootstrap.repository.DogRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
 @Component
-public class DogMutation implements GraphQLMutationResolver {
+public class Mutation implements GraphQLMutationResolver {
     private DogRepository dogRepository;
 
-    public DogMutation(DogRepository dogRepository) {
+    public Mutation(DogRepository dogRepository) {
         this.dogRepository = dogRepository;
     }
 

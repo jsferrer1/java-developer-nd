@@ -1,4 +1,4 @@
-package com.restapis.graphql.exception;
+package com.restapis.bootstrap.exception;
 
 import graphql.ErrorType;
 import graphql.GraphQLError;
@@ -8,13 +8,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class LocationNotFoundException extends RuntimeException implements GraphQLError {
+public class BreedNotFoundException extends RuntimeException implements GraphQLError {
 
     private Map<String, Object> extensions = new HashMap<>();
 
-    public LocationNotFoundException(String message, Long invalidLocationId) {
+    public BreedNotFoundException(String message, String invalidBreed) {
         super(message);
-        extensions.put("invalidLocationId", invalidLocationId);
+        extensions.put("invalidBreedId", invalidBreed);
     }
 
     @Override
