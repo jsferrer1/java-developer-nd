@@ -1,4 +1,4 @@
-package com.petshop.items.entity;
+package com.udacity.graphql.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
