@@ -5,6 +5,7 @@ out/
 !**/src/main/**
 !**/src/test/**
 *.zip
+**/.DS_Store
 
 ### STS ###
 .apt_generated
