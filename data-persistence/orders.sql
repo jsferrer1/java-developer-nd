@@ -43,4 +43,5 @@ alter table post modify column text VARCHAR(10000) NOT NULL;
 
 alter table post add column like_count int not null;
 
-
+create table comment (
+);
